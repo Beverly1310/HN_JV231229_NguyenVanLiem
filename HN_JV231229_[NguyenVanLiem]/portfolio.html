@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins";
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+      }
+      .navbar {
+        display: flex;
+        width: 1193px;
+        height: 59px;
+        justify-content: space-evenly;
+        position: relative;
+        left: 300px;
+        top: 78px;
+      }
+      .logo {
+        height: 59px;
+        width: 97px;
+        position: relative;
+        right: 100px;
+      }
+      .menu {
+        width: 609px;
+        height: 26px;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        left: 200px;
+      }
+      li {
+        display: inline-block;
+        margin-right: 5%;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+      }
+      .contact {
+        position: relative;
+        top: 10px;
+        left: 150px;
+      }
+      .intro {
+        display: flex;
+        width: 1350px;
+        height: 400px;
+        margin-top: 353px;
+        margin-left: 20%;
+        justify-content: space-between;
+      }
+      .myname {
+        width: 636px;
+        height: 297px;
+        margin-top: 45px;
+        font-size: 55px;
+      }
+      .selfie {
+        width: 400px;
+        height: 400px;
+        border: 9px solid rgba(128, 0, 255, 1);
+      }
+      .myinfor {
+        margin-top: 10px;
+      }
+      .myproject {
+        margin-left: 20%;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 380px);
+        gap: 50px 30px;
+      }
+      .prj-picture {
+        height: 50px;
+        width: 50px;
+      }
+      .prj {
+        border: 1px seashell;
+        box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      td {
+        padding: 10px;
+      }
+      .infor {
+        display: flex;
+        margin-top: 80px;
+        margin-left: 13.4%;
+        justify-content: center;
+        gap: 300px;
+      }
+      #exp,
+      #exp2 {
+        border: 1px seashell;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      #exp2 {
+        margin-top: 20px;
+      }
+      .expbox {
+        width: 230px;
+        padding: 10px 0px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+        display: flex;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo"
+          ><img src="./Picture/logo 1.png" alt="photo"
+        /></a>
+        <ul class="menu">
+          <li class="menubar"><a href="#" class="trans">Home</a></li>
+          <li class="menubar"><a href="#" class="trans">About</a></li>
+          <li class="menubar"><a href="#" class="trans">Tech Stack</a></li>
+          <li class="menubar"><a href="#" class="trans">Projects</a></li>
+          <li class="menubar"><a href="#" class="trans">Contact</a></li>
+        </ul>
+        <a href="#" class="contact"
+          ><img src="./Picture/Group 1.png" alt="contact"
+        /></a>
+      </nav>
+      <div class="intro">
+        <h2 class="myname">
+          Hi,<br />
+          My name is<br />
+          <span style="color: rgba(0, 253, 238, 1)">Minh Cường</span><br />
+          I build things for web
+        </h2>
+        <img src="./Picture/50353683 1.png" alt="selfie" />
+      </div>
+    </header>
+    <h3
+      style="
+        width: 555px;
+        height: 26px;
+        margin-top: 400px;
+        margin-left: 37%;
+        color: rgba(66, 68, 110, 1);
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: center;
+      "
+    >
+      My Personal Details
+    </h3>
+    <div class="myinfor">
+      <div class="infor" style="margin-left: 6%">
+        <div>
+          <h3 style="text-decoration: underline solid yellow; font-size: 30px">
+            Personal Details
+          </h3>
+          <p style="width: 400px">
+            It is long established fact that a reader will be distracted by the
+            readable content of page when looking at this layout.
+          </p>
+        </div>
+        <div id="personalinfo"></div>
+      </div>
+      <div id="exp"></div>
+      <div id="exp2"></div>
+    </div>
+    <h3
+      style="
+        width: 401px;
+        height: 26px;
+        margin-top: 300px;
+        margin-left: 41%;
+        font-weight: 700px;
+        font-size: 48px;
+        line-height: 26px;
+        text-align: center;
+        color: rgba(66, 68, 110, 1);
+      "
+    >
+      My Projects
+    </h3>
+    <p
+      style="
+        width: 343px;
+        height: 26px;
+        margin-top: 40px;
+        margin-left: 42.5%;
+        font-weight: 400px;
+        font-size: 32px;
+        line-height: 26px;
+        text-align: center;
+      "
+    >
+      Things I've built so far
+    </p>
+    <div class="myproject"></div>
+    <footer>
+      <div style="display: flex">
+        <a
+          href="#"
+          style="
+            position: relative;
+
+            top: 200px;
+            left: 16%;
+          "
+          ><img src="./Picture/logo 1.png" alt="logo"
+        /></a>
+        <p
+          style="
+            font-size: 18px;
+            font-weight: 400;
+            position: relative;
+            left: 48%;
+            top: 220px;
+          "
+        >
+          +91 12345 09876
+        </p>
+        <p
+          style="
+            font-size: 18px;
+            font-weight: 400;
+            position: relative;
+            left: 53%;
+            top: 220px;
+          "
+        >
+          info@example.com
+        </p>
+        <a href="#" style="position: relative; left: 62%; top: 210px"
+          ><img src="./Picture/Group 1.png" alt="contact"
+        /></a>
+      </div>
+      <hr
+        style="
+          width: 1420px;
+          height: 5.68px;
+          position: relative;
+          top: 240px;
+          left: 16%;
+          opacity: 0.3px;
+          color: rgba(102, 102, 102, 1);
+          border: 2px solid rgba(102, 102, 102, 1);
+        "
+      />
+      <div
+        style="
+          display: flex;
+          width: 1900px;
+          height: 100px;
+          justify-content: space-around;
+          margin-top: 300px;
+        "
+      >
+        <ul style="padding-left: 110px">
+          <li style="margin-right: 40px"><a href="#">Home</a></li>
+          <li style="margin-right: 40px"><a href="#">About</a></li>
+          <li style="margin-right: 40px"><a href="#">Technologies</a></li>
+          <li style="margin-right: 40px"><a href="#">Projects</a></li>
+          <li style="margin-right: 40px"><a href="#">Contact</a></li>
+        </ul>
+        <p style="color: rgba(102, 102, 102, 1)">
+          Designed and built by
+          <span style="color: rgba(0, 253, 238, 1)">Pavan MG</span> with
+          <span style="color: rgba(143, 0, 255, 1)">Love & Coffee</span>
+        </p>
+      </div>
+    </footer>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
